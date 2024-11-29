@@ -1,0 +1,24 @@
+body{
+    padding-left: 28%;
+    padding-top: 70px;}
+
+ul{
+    margin: 0;
+    display: flex;
+    list-style: none;
+    
+    
+}
+li{
+    display: flex;
+    border-width: 0; 
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+ul:nth-child(odd) li:nth-child(even)
+{background-color: black;
+}
+ul:nth-child(even) li:nth-child(odd){
+    background-color: black;
+}
